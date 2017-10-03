@@ -48,14 +48,37 @@ namespace week2_day2
             //    Console.WriteLine("Your lucky number is :" + " "+ numer);
             //}
 
-            // call days of the week usi
-            string days =  "mon tues wen thur fri sat sun" ;
-            string[] day = days.Split();
-           
-          // foreach(string d in day)
+
+
+            // call days of the week using a loop
+            //string days =  "mon tues wen thur fri sat sun" ;
+            //string[] day = days.Split();
+
+            //foreach (string d in day)
             //{
-                Console.WriteLine(day[0]);
-           // }
+            //    Console.WriteLine(day[0]);
+            //}
+
+            string whatToSay = "once upon a time";
+
+            string[] storyWords = whatToSay.Split();
+            Array.Reverse(storyWords);
+            //for (int i = 0; i < storyWords.Length; i++)
+            //{
+            //    Console.WriteLine(storyWords[i]);
+            //}
+
+
+            foreach(string i in storyWords){
+                Console.WriteLine(i);
+            }
+
+
+
+            
+
+
+
 
 
 
