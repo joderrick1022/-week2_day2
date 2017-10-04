@@ -121,23 +121,81 @@ namespace week2_day2
 
             // do while
             // do while loop is good for yes and no questions
-            string playAgain;
+            //string playAgain;
 
 
-            do
+            //do
+            //{
+
+            //    Console.WriteLine("Great game");
+            //    Console.WriteLine("Do you want to play again?");
+            //    playAgain = Console.ReadLine();
+            //    Console.WriteLine(playAgain.ToLower());
+            //}
+            //while (playAgain == "yes");
+
+            //Console.WriteLine("thanks for playing");
+            //{
+
+            //}
+
+
+            //ask the user the same question if the amswer is yes
+            //string userClass;
+            //string letterGrade;
+            //do
+            //{
+            //    Console.WriteLine("what classes would you like to add to your GPA calculations");
+            //    Console.ReadLine();
+
+
+
+            //    Console.WriteLine("what Grade did you recieve in the class");
+            //    letterGrade = Console.ReadLine();
+            //    Console.WriteLine(letterGrade.ToLower());
+
+            //    Console.WriteLine("would you like to add more classes to your GPA calculations");
+            //    userClass = Console.ReadLine();
+            //    Console.WriteLine(userClass.ToLower());
+
+
+
+
+            //} while (userClass == "yes");
+
+            //for(int i = 1; i <= 20; i++)
+            //{
+
+            //    if(i % 13 == 0)
+            //    {
+            //        break; // it is used to break a loop if condition is true
+            //        //continue;  //this is skiping over even numbers and printing odds.
+            //    }
+            //    Console.WriteLine(i);
+            //}
+
+            //for (int i = 1; i <= 2; i++)
+            //{
+            //    for(int j = 1; j <= 8; j++)
+            //    {
+            //        Console.Write(j);
+            //    }
+            //   Console.WriteLine();
+            //}
+
+
+
+            int n = int.Parse(Console.ReadLine());
+            for (int row = 1; row <= n; row++)
             {
-                
-                Console.WriteLine("Great game");
-                Console.WriteLine("Do you want to play again?");
-                playAgain = Console.ReadLine();
-                Console.WriteLine(playAgain.ToLower());
+                for(int col = 1; col <= row; col++)
+                {
+                    Console.Write(col + "");
+                }
+                Console.WriteLine();
+            
             }
-            while (playAgain == "yes");
 
-            Console.WriteLine("thanks for playing");
-            {
-
-            }
 
         }
     }
